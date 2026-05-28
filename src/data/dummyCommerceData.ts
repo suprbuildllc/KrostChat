@@ -1,0 +1,63 @@
+export interface CommerceRecord {
+  id: string;
+  date: string;
+  product_category: string;
+  revenue: number;
+  units_sold: number;
+  status: 'delivered' | 'canceled' | 'pending';
+}
+
+export const dummyCommerceData: CommerceRecord[] = [
+  { id: "TX1001", date: "2026-05-24", product_category: "Electronics", revenue: 899.99, units_sold: 1, status: "delivered" },
+  { id: "TX1002", date: "2026-05-21", product_category: "Apparel", revenue: 45.50, units_sold: 2, status: "delivered" },
+  { id: "TX1003", date: "2026-05-18", product_category: "Home & Kitchen", revenue: 120.00, units_sold: 3, status: "pending" },
+  { id: "TX1004", date: "2026-05-15", product_category: "Books", revenue: 15.99, units_sold: 1, status: "delivered" },
+  { id: "TX1005", date: "2026-05-12", product_category: "Sports & Outdoors", revenue: 249.00, units_sold: 1, status: "canceled" },
+  { id: "TX1006", date: "2026-05-27", product_category: "Beauty & Health", revenue: 59.95, units_sold: 5, status: "delivered" },
+  { id: "TX1007", date: "2026-05-02", product_category: "Electronics", revenue: 129.99, units_sold: 1, status: "delivered" },
+  { id: "TX1008", date: "2026-05-09", product_category: "Apparel", revenue: 85.00, units_sold: 1, status: "delivered" },
+  { id: "TX1009", date: "2026-05-14", product_category: "Home & Kitchen", revenue: 54.20, units_sold: 2, status: "delivered" },
+  { id: "TX1010", date: "2026-05-06", product_category: "Books", revenue: 32.50, units_sold: 2, status: "canceled" },
+  { id: "TX1011", date: "2026-05-10", product_category: "Sports & Outdoors", revenue: 450.00, units_sold: 10, status: "delivered" },
+  { id: "TX1012", date: "2026-05-03", product_category: "Beauty & Health", revenue: 18.00, units_sold: 1, status: "pending" },
+  { id: "TX1013", date: "2026-05-25", product_category: "Electronics", revenue: 1500.00, units_sold: 2, status: "delivered" },
+  { id: "TX1014", date: "2026-05-22", product_category: "Apparel", revenue: 110.00, units_sold: 4, status: "delivered" },
+  { id: "TX1015", date: "2026-05-19", product_category: "Home & Kitchen", revenue: 35.00, units_sold: 1, status: "delivered" },
+  { id: "TX1016", date: "2026-05-16", product_category: "Books", revenue: 12.99, units_sold: 1, status: "delivered" },
+  { id: "TX1017", date: "2026-05-13", product_category: "Sports & Outdoors", revenue: 89.99, units_sold: 2, status: "delivered" },
+  { id: "TX1018", date: "2026-05-28", product_category: "Beauty & Health", revenue: 145.00, units_sold: 3, status: "delivered" },
+  { id: "TX1019", date: "2026-05-01", product_category: "Electronics", revenue: 349.99, units_sold: 1, status: "pending" },
+  { id: "TX1020", date: "2026-05-11", product_category: "Apparel", revenue: 64.00, units_sold: 2, status: "delivered" },
+  { id: "TX1021", date: "2026-05-15", product_category: "Home & Kitchen", revenue: 429.00, units_sold: 1, status: "delivered" },
+  { id: "TX1022", date: "2026-05-07", product_category: "Books", revenue: 44.00, units_sold: 3, status: "delivered" },
+  { id: "TX1023", date: "2026-05-12", product_category: "Sports & Outdoors", revenue: 125.00, units_sold: 5, status: "canceled" },
+  { id: "TX1024", date: "2026-05-04", product_category: "Beauty & Health", revenue: 85.50, units_sold: 2, status: "delivered" },
+  { id: "TX1025", date: "2026-05-26", product_category: "Electronics", revenue: 450.00, units_sold: 3, status: "delivered" },
+  { id: "TX1026", date: "2026-05-23", product_category: "Apparel", revenue: 75.00, units_sold: 2, status: "delivered" },
+  { id: "TX1027", date: "2026-05-20", product_category: "Home & Kitchen", revenue: 19.99, units_sold: 1, status: "delivered" },
+  { id: "TX1028", date: "2026-05-17", product_category: "Books", revenue: 27.50, units_sold: 2, status: "pending" },
+  { id: "TX1029", date: "2026-05-14", product_category: "Sports & Outdoors", revenue: 67.00, units_sold: 1, status: "delivered" },
+  { id: "TX1030", date: "2026-05-08", product_category: "Beauty & Health", revenue: 110.00, units_sold: 4, status: "delivered" },
+  { id: "TX1031", date: "2026-05-15", product_category: "Electronics", revenue: 799.00, units_sold: 1, status: "delivered" },
+  { id: "TX1032", date: "2026-05-21", product_category: "Apparel", revenue: 220.00, units_sold: 5, status: "delivered" },
+  { id: "TX1033", date: "2026-05-18", product_category: "Home & Kitchen", revenue: 14.50, units_sold: 1, status: "delivered" },
+  { id: "TX1034", date: "2026-05-25", product_category: "Books", revenue: 8.99, units_sold: 1, status: "canceled" },
+  { id: "TX1035", date: "2026-05-26", product_category: "Sports & Outdoors", revenue: 195.00, units_sold: 3, status: "delivered" },
+  { id: "TX1036", date: "2026-05-19", product_category: "Beauty & Health", revenue: 49.99, units_sold: 2, status: "delivered" },
+  { id: "TX1037", date: "2026-05-05", product_category: "Electronics", revenue: 59.99, units_sold: 1, status: "delivered" },
+  { id: "TX1038", date: "2026-05-12", product_category: "Apparel", revenue: 35.00, units_sold: 1, status: "delivered" },
+  { id: "TX1039", date: "2026-05-17", product_category: "Home & Kitchen", revenue: 280.00, units_sold: 2, status: "pending" },
+  { id: "TX1040", date: "2026-05-09", product_category: "Books", revenue: 19.50, units_sold: 1, status: "delivered" },
+  { id: "TX1041", date: "2026-05-13", product_category: "Sports & Outdoors", revenue: 320.00, units_sold: 8, status: "delivered" },
+  { id: "TX1042", date: "2026-05-27", product_category: "Beauty & Health", revenue: 275.00, units_sold: 5, status: "delivered" },
+  { id: "TX1043", date: "2026-05-28", product_category: "Electronics", revenue: 1150.00, units_sold: 1, status: "delivered" },
+  { id: "TX1044", date: "2026-05-24", product_category: "Apparel", revenue: 68.00, units_sold: 2, status: "delivered" },
+  { id: "TX1045", date: "2026-05-21", product_category: "Home & Kitchen", revenue: 99.00, units_sold: 1, status: "delivered" },
+  { id: "TX1046", date: "2026-05-18", product_category: "Books", revenue: 31.00, units_sold: 2, status: "delivered" },
+  { id: "TX1047", date: "2026-05-15", product_category: "Sports & Outdoors", revenue: 145.00, units_sold: 2, status: "delivered" },
+  { id: "TX1048", date: "2026-05-12", product_category: "Beauty & Health", revenue: 62.00, units_sold: 3, status: "delivered" },
+  { id: "TX1049", date: "2026-05-19", product_category: "Electronics", revenue: 219.00, units_sold: 2, status: "delivered" },
+  { id: "TX1050", date: "2026-05-16", product_category: "Apparel", revenue: 125.00, units_sold: 3, status: "canceled" },
+  { id: "TX1051", date: "2026-05-02", product_category: "Home & Kitchen", revenue: 89.50, units_sold: 2, status: "delivered" },
+  { id: "TX1052", date: "2026-05-10", product_category: "Books", revenue: 55.00, units_sold: 4, status: "delivered" },
+];

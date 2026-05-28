@@ -1,0 +1,6 @@
+{
+  "name": "Minimal Chat",
+  "description": "An ultra-minimalist, fullscreen chat application with a clean, empty initial layout.",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}
